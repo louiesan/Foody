@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { FoodContext } from "../Context/Context";
+import { FoodContext } from "../context/Context";
 import Recipies from "../component/Recipe";
 import {
   firstDish,

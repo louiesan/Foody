@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { FoodContext } from "../Context/Context";
+import { FoodContext } from "../context/Context";
 import { useNavigate } from "react-router-dom";
 
 export default function Search({ focused }) {
