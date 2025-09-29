@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Recipies from "../component/Recipe";
-import { FoodContext } from "../context/Context";
+import { FoodContext } from "../Context/context";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { loadingTwo } from "../assets/picture";
 import { Link } from "react-router-dom";

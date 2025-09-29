@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { FoodContext } from "../context/context";
+import { FoodContext } from "../Context/context";
 import { Link } from "react-router-dom";
 import { loadingTwo } from "../assets/picture";
 
