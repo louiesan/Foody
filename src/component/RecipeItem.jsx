@@ -1,6 +1,6 @@
 import { useContext, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FoodContext } from "../context/context";
+import { FoodContext } from "../Context/context";
 import { remove, save } from "../assets/picture";
 import { ArrowBigLeft } from "lucide-react";
 import { toast } from "react-toastify";
