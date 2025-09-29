@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Recipies from "../component/Recipe";
-import { FoodContext } from "../Context/context";
+import { FoodContext } from "../../src/Context/context";
 import { loadingTwo } from "../assets/picture";
 import { Link } from "react-router-dom";
 
