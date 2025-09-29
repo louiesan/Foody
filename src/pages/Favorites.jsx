@@ -1,12 +1,12 @@
 import { useContext } from "react";
 import Recipies from "../component/Recipe";
-import { foodContext } from "../context/Context";
+import { FoodContext } from "../Context/Context";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { loadingTwo } from "../assets/picture";
 import { Link } from "react-router-dom";
 
 export default function Favorites() {
-  const { favorites } = useContext(foodContext);
+  const { favorites } = useContext(FoodContext);
 
   return (
     <div>

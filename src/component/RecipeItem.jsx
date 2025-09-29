@@ -1,12 +1,12 @@
 import { useContext, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { foodContext } from "../context/Context";
+import { FoodContext } from "../Context/Context";
 import { remove, save } from "../assets/picture";
 import { ArrowBigLeft } from "lucide-react";
 import { toast } from "react-toastify";
 
 export default function Items({ item }) {
-  const { addToFavorites, favorites } = useContext(foodContext);
+  const { addToFavorites, favorites } = useContext(FoodContext);
 
   const notify = () => {
     condition

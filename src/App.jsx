@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Favorites from "./pages/Favorites";
 import Header from "./component/Header";
-import GlobalState from "./context/Context";
+import GlobalState from "./Context/Context";
 import Details from "./pages/recipeno/Details";
 import { ToastContainer } from "react-toastify";
 

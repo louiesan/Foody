@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { foodContext } from "../context/context";
+import { FoodContext } from "../Context/Context";
 import { Link } from "react-router-dom";
 import { loadingTwo } from "../assets/picture";
 
 export default function Recipies({ foods }) {
-  const { error } = useContext(foodContext);
-  const { search } = useContext(foodContext);
+  const { error } = useContext(FoodContext);
+  const { search } = useContext(FoodContext);
   const yours = search;
   console.log(foods);
 

@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
-export const foodContext = createContext(null);
+export const FoodContext = createContext(null);
 
 export default function GlobalState({ children }) {
   const [search, setSearch] = useState("");
@@ -55,7 +55,7 @@ export default function GlobalState({ children }) {
   console.log(foods);
 
   return (
-    <foodContext.Provider
+    <FoodContext.Provider
       value={{
         isLoading,
         search,
@@ -70,7 +70,7 @@ export default function GlobalState({ children }) {
       }}
     >
       {children}
-    </foodContext.Provider>
+    </FoodContext.Provider>
   );
 }
 

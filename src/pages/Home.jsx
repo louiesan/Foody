@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { foodContext } from "../context/Context";
+import { FoodContext } from "../Context/Context";
 import Recipies from "../component/Recipe";
 import {
   firstDish,
@@ -11,7 +11,7 @@ import {
 import { Star } from "lucide-react";
 
 export default function Home() {
-  const { ready, foods, isLoading } = useContext(foodContext);
+  const { ready, foods, isLoading } = useContext(FoodContext);
 
   const homeItems = [
     {

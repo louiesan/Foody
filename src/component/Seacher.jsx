@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { foodContext } from "../context/context";
+import { FoodContext } from "../Context/Context";
 import { useNavigate } from "react-router-dom";
 
 export default function Search({ focused }) {
-  const { search, setSearch, searching } = useContext(foodContext);
+  const { search, setSearch, searching } = useContext(FoodContext);
 
   console.log(search);
   const navigate = useNavigate();
